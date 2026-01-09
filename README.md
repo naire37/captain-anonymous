@@ -2,6 +2,12 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+To run docker, run:
+
+```bash
+docker run --name captain-anonymous-postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres
+```
+
 First, run the development server:
 
 ```bash
